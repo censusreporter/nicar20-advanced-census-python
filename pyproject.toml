@@ -15,6 +15,8 @@ python-Levenshtein = "^0.12.0"
 descartes = "^1.1.0"
 censusgeocode = "^0.4.3"
 census-data-aggregator = "^0.0.6"
+census-error-analyzer = "^0.0.3"
+latimes-statestyle = "^0.1.6"
 
 [tool.poetry.dev-dependencies]
 

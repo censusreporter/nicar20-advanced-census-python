@@ -1,12 +1,13 @@
 # Advanced Census data with Python
 
-A workshop/tutorial developed for [NICAR 2020](https://ire.org/nicar2020).
+A workshop/tutorial developed for [NICAR 2020](https://www.ire.org/events-and-training/conferences/nicar-2020).
 
-The goal is to walk people with some experience with Python and Census data through specific tasks.
-
+In this workshop, we'll work through the multi-step process of aggregating data from the US Census American Community Survey (ACS) to locally important geographies: specifically, [Chicago community areas](https://en.wikipedia.org/wiki/Community_areas_in_Chicago).
 
 
 ## Python Census libraries you can use:
+
+In preparing this, I gathered a list of Python libraries designed to help with Census data. Not all of them are covered in theis repository, but I figured I'd keep the list anyway, in case it's useful.  Feel free to send pull requests if I missed any!
 
 ### Getting data
 

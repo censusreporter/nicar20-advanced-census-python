@@ -125,6 +125,14 @@ numpy = "*"
 
 [[package]]
 category = "main"
+description = "Analyze the margin of error in U.S. census data"
+name = "census-error-analyzer"
+optional = false
+python-versions = "*"
+version = "0.0.3"
+
+[[package]]
+category = "main"
 description = "Thin Python wrapper for the US Census Geocoder"
 name = "censusgeocode"
 optional = false
@@ -560,6 +568,14 @@ version = "1.1.0"
 
 [package.dependencies]
 setuptools = "*"
+
+[[package]]
+category = "main"
+description = "Standardizes data about U.S. states"
+name = "latimes-statestyle"
+optional = false
+python-versions = "*"
+version = "0.1.6"
 
 [[package]]
 category = "main"
@@ -1114,7 +1130,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools"]
 
 [metadata]
-content-hash = "89d018a791f2c91f4c5e24d1acb7785c9972c8c866dc6a1b9fab47157e618733"
+content-hash = "0c2b3bae33e4242fb45fab041087c91fb6601ff5656f26147791e9f7b6a2861d"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1156,6 +1172,10 @@ census-area = [
 census-data-aggregator = [
     {file = "census-data-aggregator-0.0.6.tar.gz", hash = "sha256:4443165f9e9fc00becb346e7af58868b4a0f80c77b3ca8eb1f468e35bf920f52"},
     {file = "census_data_aggregator-0.0.6-py2.py3-none-any.whl", hash = "sha256:cf527a1378aebe688584f5828a403778f73be5a74b2f04b9a13edc65c57db49e"},
+]
+census-error-analyzer = [
+    {file = "census-error-analyzer-0.0.3.tar.gz", hash = "sha256:333c49411af595c66ab7c372cbb46f34ad9aad2ae0daa2cb17d14452e54520d5"},
+    {file = "census_error_analyzer-0.0.3-py2.py3-none-any.whl", hash = "sha256:172c753c8a6ae4395db6296a7e2dc1e7f911175370c7d21a2afbf54061a3e579"},
 ]
 censusgeocode = [
     {file = "censusgeocode-0.4.3.post1-py2.py3-none-any.whl", hash = "sha256:bf81d1c953536174b52b99eff36d9a6384923f6f9516502cd12c03902c50f1c8"},
@@ -1382,6 +1402,9 @@ kiwisolver = [
     {file = "kiwisolver-1.1.0-cp38-none-win32.whl", hash = "sha256:76275ee077772c8dde04fb6c5bc24b91af1bb3e7f4816fd1852f1495a64dad93"},
     {file = "kiwisolver-1.1.0-cp38-none-win_amd64.whl", hash = "sha256:3b15d56a9cd40c52d7ab763ff0bc700edbb4e1a298dc43715ecccd605002cf11"},
     {file = "kiwisolver-1.1.0.tar.gz", hash = "sha256:53eaed412477c836e1b9522c19858a8557d6e595077830146182225613b11a75"},
+]
+latimes-statestyle = [
+    {file = "latimes-statestyle-0.1.6.tar.gz", hash = "sha256:7f3a6fed8a226458fd2be284ac4a28c5ed06159d6544ac5d0cfe34830a3d4905"},
 ]
 libpysal = [
     {file = "libpysal-4.2.2.tar.gz", hash = "sha256:b4dabe084efbc0a81f762bb0680377e72220b3396817f1ba021f7426ea81e27a"},
