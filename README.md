@@ -4,6 +4,9 @@ A workshop/tutorial developed for [NICAR 2020](https://www.ire.org/events-and-tr
 
 In this workshop, we'll work through the multi-step process of aggregating data from the US Census American Community Survey (ACS) to locally important geographies: specifically, [Chicago community areas](https://en.wikipedia.org/wiki/Community_areas_in_Chicago).
 
+The workshop is designed as a Jupyter Notebook to support self-paced learning and future reference. To begin, you'll need to set up a Python environment using either [Poetry](https://python-poetry.org/) or `pip install -r requirements.txt`. If you really don't know what any of that means, you may not be ready for this workshop, because it's more about showing how to do things without a lot of explaining.
+
+
 
 ## Python Census libraries you can use:
 
