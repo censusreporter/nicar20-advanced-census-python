@@ -6,7 +6,7 @@ In this workshop, we'll work through the multi-step process of aggregating data 
 
 The workshop is designed as a Jupyter Notebook to support self-paced learning and future reference. To begin, you'll need to set up a Python environment using either [Poetry](https://python-poetry.org/) or `pip install -r requirements.txt`. If you really don't know what any of that means, you may not be ready for this workshop, because it's more about showing how to do things without a lot of explaining.
 
-
+**NOTE**: Some of the requirements may also depend on non-python software installations.  If you can help, feel free to add notes to this README and make a pull-request.  I've looked a bit into making this run on MyBinder.org but haven't had time to make that fully-functional.
 
 ## Python Census libraries you can use:
 
