@@ -17,6 +17,7 @@ censusgeocode = "^0.4.3"
 census-data-aggregator = "^0.0.6"
 census-error-analyzer = "^0.0.3"
 latimes-statestyle = "^0.1.6"
+bleach = ">=3.1.4"
 
 [tool.poetry.dev-dependencies]
 
