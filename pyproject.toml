@@ -6,7 +6,7 @@ authors = ["Joe Germuska <JoeGermuska@Northwestern.edu>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-jupyterlab = "^1.2.6"
+jupyterlab = "^1.2.21"
 cenpy = "^1.0.0"
 census = "^0.8.13"
 census_area = "^0.3.2"
