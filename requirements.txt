@@ -61,7 +61,7 @@ prometheus-client==0.7.1
 prompt-toolkit==3.0.3
 ptyprocess==0.6.0; sys_platform != "win32" or os_name != "nt"
 pycparser==2.19
-pygments==2.5.2
+pygments==2.7.4
 pyopenssl==19.1.0
 pyparsing==2.4.6
 pyproj==2.4.2.post1
