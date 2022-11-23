@@ -70,7 +70,7 @@ pyshp==2.1.0
 python-dateutil==2.8.1
 python-levenshtein==0.12.0
 pytz==2019.3
-pywin32==227; sys_platform == "win32"
+pywin32==301; sys_platform == "win32"
 pywinpty==0.5.7; os_name == "nt"
 pyzmq==18.1.1
 requests==2.22.0
